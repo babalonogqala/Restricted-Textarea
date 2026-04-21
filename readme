@@ -1,0 +1,54 @@
+# Restricted Textarea
+
+A simple textarea component with a live character counter and maximum character limit, built using **HTML**, **CSS**, and **JavaScript**.
+
+---
+
+## 📌 Overview
+
+This project implements a textarea that tracks how many characters a user types in real time.
+
+As the user types:
+
+- The character count updates dynamically
+- A maximum character limit is enforced
+- Once the limit is reached:
+  - Additional input is prevented
+  - The textarea border turns red as a visual warning
+
+This project is designed to strengthen your understanding of DOM manipulation and user input handling.
+
+---
+
+## 🚀 Features
+
+- Live character count display
+- Enforced maximum character limit
+- Input restriction when limit is reached
+- Visual feedback (red border) on limit
+- Simple and responsive UI
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+---
+
+---
+
+## ⚙️ How It Works
+
+- HTML defines the textarea and character counter
+- CSS styles the textarea and applies a red border when the limit is reached
+- JavaScript:
+  - Listens for input events
+  - Counts the number of characters entered
+  - Updates the counter in real time
+  - Prevents additional input when the max limit is reached
+  - Adds a visual indicator when the limit is exceeded
+
+---
